@@ -132,7 +132,8 @@ __numonic_update()
 		--file="${NUMONIC_INSTALL_TEMP}/numonic.tgz" \
 		--directory="${NUMONIC_INSTALL_TEMP}"
 
-	"${NUMONIC_INSTALL_TEMP}/install.sh" "${NUMONIC_SHELL}" "${NUMONIC_INSTALL_TEMP}"
+	# "${NUMONIC_INSTALL_TEMP}/install.sh" "${NUMONIC_SHELL}" "${NUMONIC_INSTALL_TEMP}"
+	"/Users/patrickserrano/Developer/repos/numonic/install.sh" "${NUMONIC_SHELL}" "/Users/patrickserrano/Developer/repos/numonic"
 }
 
 trap 'print-warn "numonic: terminating update..."; exit 1;' INT

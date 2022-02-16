@@ -107,7 +107,7 @@ __numonic_install_darwin() {
 		--silent \
 		--show-error \
 		--location \
-		https://starship.rs/install.sh | bash -s -- --force --bin-dir="${NUMONIC_BIN}" 1>/dev/null
+		https://starship.rs/install.sh | sh -s -- --force --bin-dir="${NUMONIC_BIN}" 1>/dev/null
 }
 
 __numonic_install_fonts() {
