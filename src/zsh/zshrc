@@ -27,6 +27,7 @@ setopt share_history
 setopt cdable_vars
 setopt null_glob
 setopt combining_chars
+setopt auto_cd
 
 zsh_scripts_dir="${NUMONIC_HOME}/zsh/scripts"
 
